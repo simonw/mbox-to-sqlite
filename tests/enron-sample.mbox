@@ -1,0 +1,66 @@
+From vladimir.gorny@enron.com Fri Dec 29 12:49:00 2000
+Message-ID: <26521776.1075852054120.JavaMail.evans@thyme>
+Date: Fri, 29 Dec 2000 03:49:00 -0800 (PST)
+From: vladimir.gorny@enron.com
+To: tim.belden@enron.com, kevin.presto@enron.com, john.lavorato@enron.com
+Subject: 12/28 Power VaR
+Cc: frank.hayden@enron.com, stacey.white@enron.com, lacrecia.davenport@enron.com, 
+	david.port@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: frank.hayden@enron.com, stacey.white@enron.com, lacrecia.davenport@enron.com, 
+	david.port@enron.com
+X-From: Vladimir Gorny
+X-To: Tim Belden, Kevin M Presto, John J Lavorato
+X-cc: Frank Hayden, Stacey W White, LaCrecia Davenport, David Port
+X-bcc: 
+X-Folder: \Sally_White_Nov2001\Notes Folders\West var
+X-Origin: WHITE-S
+X-FileName: swhite.nsf
+
+As of 12/28 Power VaR increased by $8.7 MM to $43.7 MM (limit of $50 MM) and 
+West Power increased by $9.2 MM to $35.8 MM. This increase is mainly 
+attributable to an addition of a long MidC position of ~1.8 MM Mwhs - a deal 
+with BPA: Buy 250-360 MWs for the period 2/01-9/01. See the increase in 
+component VaR in 2001 below (Longs are driving the risk in the portfolio).
+
+
+
+Vlady.
+
+From valarie.sabo@enron.com Fri Mar 09 11:23:00 2001
+Message-ID: <29534117.1075852053898.JavaMail.evans@thyme>
+Date: Fri, 9 Mar 2001 02:23:00 -0800 (PST)
+From: valarie.sabo@enron.com
+To: kroum.kroumov@enron.com
+Subject: release to production of scheduling forward obs. report
+Cc: diana.scholtes@enron.com, cara.semperger@enron.com, will.smith@enron.com, 
+	stacey.white@enron.com, tim.belden@enron.com, fran.chang@enron.com, 
+	samantha.law@enron.com, heather.dunton@enron.com, 
+	duong.luu@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: diana.scholtes@enron.com, cara.semperger@enron.com, will.smith@enron.com, 
+	stacey.white@enron.com, tim.belden@enron.com, fran.chang@enron.com, 
+	samantha.law@enron.com, heather.dunton@enron.com, 
+	duong.luu@enron.com
+X-From: Valarie Sabo
+X-To: Kroum Kroumov
+X-cc: Diana Scholtes, Cara Semperger, Will Smith, Stacey W White, Tim Belden, Fran Chang, Samantha Law, Heather Dunton, Duong Luu
+X-bcc: 
+X-Folder: \Sally_White_Nov2001\Notes Folders\Val
+X-Origin: WHITE-S
+X-FileName: swhite.nsf
+
+I've tested the "schedule" version of forward obs.  It seems to be working 
+well.  
+
+The wish list might include a summary page to show the desks net 0. And it 
+could use a default that pulls all the west desks when the West portfolio is 
+clicked, while retaining the flexibility of overriding the west default to 
+choose individual desks - HOWEVER - it does work fine the way it is.
+
+Please release this to production and let Fran Chang, Heather Dunton, 
+Samantha Law and Diana Scholtes know when it is released.  Thanks!
