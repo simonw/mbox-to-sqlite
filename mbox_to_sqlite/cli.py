@@ -1,13 +1,17 @@
 import click
 import sqlite_utils
+import sqlite3
 import mailbox
+
+
+def sql_tracer(sql, params):
+    print("SQL: {} - params: {}".format(sql, params))
 
 
 @click.group()
 @click.version_option()
 def cli():
     "Load email from .mbox files into SQLite"
-
 
 @cli.command()
 @click.argument(
@@ -19,9 +23,14 @@ def cli():
     type=click.Path(file_okay=True, dir_okay=False, allow_dash=False, exists=True),
 )
 @click.option("--table", default="messages")
-def mbox(db_path, mbox_path, table):
+@click.option("--tracer", is_flag=True)
+
+def mbox(db_path, mbox_path, table, tracer):
     "Import messages from an mbox file"
-    db = sqlite_utils.Database(db_path)
+    if tracer:
+        db = sqlite_utils.Database(db_path, tracer=sql_tracer)
+    else:
+        db = sqlite_utils.Database(db_path)
     mbox = mailbox.mbox(mbox_path)
 
     def to_insert():
@@ -34,3 +43,4 @@ def mbox(db_path, mbox_path, table):
 
     if not db[table].detect_fts():
         db[table].enable_fts(["payload", "subject"], create_triggers=True)
+
