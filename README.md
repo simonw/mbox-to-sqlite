@@ -23,6 +23,10 @@ Add the --tracer option to print the SQLite internal SQL statements as they're b
 
     mbox-to-sqlite mbox --tracer emails.db path/to/messages.mbox
 
+Add the --lowercol option to force the column names to be lower case.
+
+    mbox-to-sqlite mbox --lowercol emails.db path/to/messages.mbox
+
 You can try this out against an example containing a sample of 3,266 emails from the [Enron corpus](https://en.wikipedia.org/wiki/Enron_Corpus) like this:
 
     curl -O https://raw.githubusercontent.com/ivanhb/EMA/master/server/data/mbox/enron/mbox-enron-white-s-all.mbox
