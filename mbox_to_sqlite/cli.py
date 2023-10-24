@@ -28,7 +28,6 @@ def cli():
 
 def mbox(db_path, mbox_path, table, tracer, lowercol):
     "Import messages from an mbox file"
-    print('hello')
     if tracer:
         db = sqlite_utils.Database(db_path, tracer=sql_tracer)
     else:
